@@ -1,8 +1,8 @@
-def find_big_number(simpleArray):
-    biggestNumber=simpleArray[0]
-    for i in range(1,len(simpleArray)):
-        if simpleArray[i] > biggestNumber:
-            biggestNumber=simpleArray[i]
-    print(biggestNumber)
-simpleArray=[5,3,3,3,3,3,3,4]
-find_big_number(simpleArray)
+def Biggest_Element(List):
+    large=List[0]
+    for i in range(1,len(List)):
+        if List[i] > large:
+            large=List[i]
+    return large
+List=[20,25,32,15,30]
+print("The biggest element in the given list is",Biggest_Element(List))
