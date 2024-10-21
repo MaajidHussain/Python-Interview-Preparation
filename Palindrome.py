@@ -3,7 +3,7 @@ def func(Input):
     rev_str=Input_str[::-1]
     return Input_str==rev_str
     
-Input=int(input("Enter any String / Number: "))
+Input=input("Enter any String / Number: ")
 if func(Input):
     print(True)
 else:
