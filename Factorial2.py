@@ -1,13 +1,13 @@
-def Factorial(number):
-    if number<0:
+def Factorial(Number):
+    if Number<0:
         return 0
-    elif number==0 or number==1:
+    elif Number==0 or Number==1:
         return 1
     else:
-        fact=1
-        while(number>1):
-            fact=fact*number
-            number=number-1
-        return fact
+        Fact=1
+        while(Number>1):
+            Fact=Fact*Number
+            Number=Number-1
+        return Fact
 Number=int(input("Enter any whole number: "))
-print(Factorial(Number))
+print("Factorial of",Number,"is",Factorial(Number))
