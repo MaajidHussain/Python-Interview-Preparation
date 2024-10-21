@@ -1,10 +1,10 @@
-def func(num):
-    num_str=str(num)
-    rev_str=num_str[::-1]
-    return num_str==rev_str
+def func(Input):
+    Input_str=str(Input)
+    rev_str=Input_str[::-1]
+    return Input_str==rev_str
     
-Number=int(input("Enter a number: "))
-if func(Number):
+Input=int(input("Enter any String / Number: "))
+if func(Input):
     print(True)
 else:
     print(False)
